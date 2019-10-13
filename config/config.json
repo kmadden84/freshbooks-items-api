@@ -1,0 +1,34 @@
+{
+  "development": {
+    "database": "database_development",
+    "username": "root",
+    "password": null,
+    "dialect": "sqlite",
+    "storage": "item_api.db",
+    "operatorsAliases": false,
+    "sync": { 
+      "force": true,
+      "alter": true
+     }
+  },
+  "test": {
+    "database": "database_development",
+    "dialect": "sqlite",
+    "storage": "item_api.db",
+    "operatorsAliases": false,
+    "sync": { 
+      "force": true,
+      "alter": true
+     }
+  },
+  "production": {
+    "database": "database_development",
+    "dialect": "sqlite",
+    "storage": "item_api.db",
+    "operatorsAliases": false,
+    "sync": { 
+      "force": true,
+      "alter": true
+     }
+  }
+}
